@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-color-theme{
+    color: white !important;
+    background-color: #0BAF7B;
+}
+
+.text-theme{
+    color: #0BAF7B;
+}
+
+a:hover{
+    color: #0BAF7B;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.btn-outline-theme{
+    color: #0BAF7B !important;
+    border: 1px solid #0BAF7B;
+}
+
+.btn-outline-theme:hover{
+    color: white !important;
+    background-color: #0BAF7B;
+}
+
+.navbar .navbar-nav li{
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+@media(max-width: 989px){
+   .navbar-collapse{
+       margin-top: 38px;
+       margin-bottom: 30px;
+   }
+
+   .navbar-nav .btn-outline-theme{
+       margin-top: 10px;
+   }
+
+   .hero img{
+       width: 350px;
+       margin-top: 19px;
+   }
+}
