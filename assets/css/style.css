@@ -9,6 +9,10 @@ body{
     background-color: #0BAF7B;
 }
 
+.btn-color-theme:hover{
+    background-color: #019465;
+}
+
 .text-theme{
     color: #0BAF7B;
 }
@@ -50,4 +54,22 @@ a:hover{
        width: 350px;
        margin-top: 19px;
    }
+}
+
+.text-orange{
+    color: #F89613 !important;
+}
+
+.badge-muted{
+    color: #6F6F6F;
+    background-color: #F9F6FF;
+}
+
+.bg-theme{
+    background-color: #fbfcfd;
+}
+
+.popular-barber{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
