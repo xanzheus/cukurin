@@ -18,7 +18,7 @@ body{
 }
 
 a:hover{
-    color: #0BAF7B;
+    color: #0BAF7B !important;
 }
 
 .border-radius-10{
@@ -73,3 +73,8 @@ a:hover{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.navbar{
+   transition-timing-function: ease;
+}
+
